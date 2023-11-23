@@ -1,0 +1,84 @@
+/* .header {
+    position: fixed;
+    width: 100%;
+    background-color: red;
+} */
+
+.header .header-left p {
+    margin: 9px 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.header .header-right {
+    font-size: 13px;
+}
+.header .header-right a:hover {
+    color: #74706b;
+}
+.header .header-top {
+    background-color: black;
+}
+.header-center .imglogo img {
+    width: 36%;
+}
+.header-center {
+    padding: 40px 43px;
+}
+/* .header-center {
+    p: 45px 0;
+} */
+.header-center .icon.alone i {
+    margin: 7px 11px;
+}
+.header-center .icon.alone .dropdown i {
+    font-weight: 300;
+    font-size: 23px;
+    color: black;
+    margin-top: 3px;
+}
+
+.header-center .icon i {
+    font-weight: 300;
+}
+.header-center .icon.all i {
+    margin-left: 30px;
+}
+.header-center .icon .fa-regular .fa-heart {
+    position: relative;
+}
+.header-center .icon .fa-regular.fa-heart::after {
+    position: absolute;
+    content: "0";
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 10px;
+    top: 72px;
+    right: 98px;
+    padding: 5px 7px;
+}
+.header-center .icon .fa-regular.fa-cart-shopping {
+    position: relative;
+}
+.header-center .icon .fa-regular.fa-cart-shopping::after {
+    position: absolute;
+    content: "0";
+    width: 90%;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 10px;
+    top: -12px;
+    right: -8px;
+    padding: 5px 7px;
+}
+.header-center .icon {
+    font-size: 20px;
+}
+.header-center .icon:hover {
+    cursor: pointer;
+}
+.header-center .icon.all i {
+    font-size: 20px;
+    color: #000;
+}

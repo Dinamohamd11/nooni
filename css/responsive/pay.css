@@ -1,0 +1,49 @@
+@media screen and (max-width: 1024px) {
+    .cart.pay .total .input {
+        justify-content: center;
+    }
+    .radio {
+        display: none;
+    }
+    .cart.pay .total .button {
+        width: 99%;
+        padding: 15px;
+    }
+    .shop .heading h2 {
+        font-size: 22px;
+    }
+    .common h2 {
+        font-size: 27px;
+    }
+    .cart.pay .timg p {
+        margin: 37px 21px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cart.pay .timg p {
+        margin: 27px 9px;
+    }
+    .cart.pay .timg img {
+        width: 39%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .col-lg-5.col-md-4.d {
+        display: none !important;
+    }
+    .col-lg-2.d {
+        display: none !important;
+    }
+    .col-lg-3.d {
+        display: none !important;
+    }
+    .cart.pay .timg img {
+        width: 32%;
+    }
+    .col-xs {
+        width: 100% !important;
+    }
+    .col-xl-3.col-lg-4.col-md-4.col-sm-6.d {
+        display: none !important;
+    }
+}

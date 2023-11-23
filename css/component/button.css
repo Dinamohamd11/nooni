@@ -1,0 +1,41 @@
+.btn-all {
+    margin-bottom: 2px;
+    font-size: 13px;
+    position: relative;
+    border: none;
+    text-transform: uppercase;
+}
+/* .btn-all a {
+    text-decoration: none;
+} */
+.btn-all::before {
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid;
+    bottom: -1px;
+}
+.btn-all::after {
+    right: 100%;
+    transition-delay: 300ms;
+}
+.btn-all :hover {
+    color: rgba(132, 132, 132, 1);
+}
+
+.button {
+    background: black;
+    width: 27%;
+    border-left: 0;
+    border: 1px solid #f0e9ff;
+    padding: 8px;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.button:hover {
+    background-color: rgba(209, 2, 2, 1);
+    color: #fff;
+}

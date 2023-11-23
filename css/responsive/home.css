@@ -1,0 +1,207 @@
+@media screen and (max-width: 1024px) {
+    .home .homeimg {
+        right: -68px;
+    }
+    .home .text h1 {
+        font-size: 42px;
+    }
+    .box-content {
+        right: 69px;
+    }
+    .box-content h2 {
+        margin-bottom: 28px;
+        font-size: 28px;
+    }
+    .brands.r .txt h2 {
+        font-size: 31px;
+    }
+    .brands.r .btnn {
+        top: 141px;
+    }
+    .brands.r .single-img .box-content h2 {
+        font-size: 19px;
+    }
+    .brands.r .single-img .box-content {
+        right: 123px;
+    }
+    .more.e .content .par {
+        padding: 42px 0;
+    }
+    .more.e .content .text {
+        padding: 35px 42px 0px 52px;
+    }
+    .shop.d .txt h2 {
+        font-size: 40px;
+    }
+    .blog.d .smallimg img {
+        width: 14%;
+    }
+    .blog .text p {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* .header-center .icon.all {
+        margin-top: -48px;
+    }
+    .home .text {
+        margin-top: 4%;
+    }
+    .header-center {
+        padding: 30px 20px !important;
+    }
+    .header-center .imglogo {
+        margin-top: -53px;
+    }
+    .header-center .imglogo img {
+        width: 23%;
+    } */
+    .homeimg {
+        top: -34px;
+        right: -6px !important;
+        width: 100%;
+    }
+
+    .home {
+        height: 90vh;
+    }
+    .p-80 {
+        padding: 20px 15px;
+    }
+    .home .text h1 {
+        font-size: 45px;
+        font-weight: 400;
+        letter-spacing: 2.6px;
+    }
+    .home .text span {
+        font-size: 16px;
+        line-height: 4;
+    }
+
+    .box-content {
+        top: 23px;
+        right: 69px;
+        width: 59%;
+    }
+    .box-content h2 {
+        margin-bottom: 9px;
+        font-size: 22px;
+    }
+    .brands.r .txt h2 {
+        font-size: 25px;
+    }
+    .brands.r .btnn {
+        top: 127px;
+    }
+    .brands .single-img .box-content {
+        top: -35px;
+        right: 170px;
+    }
+    .brands.r .single-img .box-content h2 {
+        font-size: 15px;
+    }
+    .box-content .btn-all.r {
+        letter-spacing: 0px;
+        font-size: 12px;
+    }
+    .p-60 {
+        padding: 0px 24px;
+    }
+    .blog .blogitem {
+        margin-top: 3px;
+    }
+    .blog .text h2 {
+        font-size: 28px;
+    }
+    .blog .text p {
+        font-size: 16px;
+    }
+    .txt h2 {
+        font-size: 22px;
+        margin-bottom: 35px;
+        letter-spacing: 1.4px;
+        font-weight: 700;
+    }
+    .video {
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .home .text {
+        margin-top: -9%;
+        text-align: center;
+    }
+    .home {
+        height: 145vh;
+    }
+    .home .text h1 {
+        font-size: 38px;
+    }
+
+    .p-80 {
+        padding: 20px 0;
+    }
+    .p-60 {
+        padding: 0px 10px;
+    }
+    .backg {
+        height: 85vh;
+        width: 100%;
+    }
+    .content {
+        display: block !important;
+    }
+    .more .content .par {
+        text-align: center;
+    }
+    .more .content .par h4 {
+        font-size: 25px;
+    }
+    .more .content .text h2 {
+        font-size: 47px;
+        text-align: center;
+    }
+    .more.e .content .par {
+        padding: 0;
+    }
+    .pnav {
+        padding: 0 11px;
+    }
+    .vid .layer {
+        height: 30vh;
+    }
+    .vid {
+        height: 30vh;
+    }
+    .vid .layer .text h2 {
+        letter-spacing: 14px;
+        font-size: 50px;
+    }
+    .header-center .icon.all .fa-regular.fa-user {
+        display: none;
+    }
+}
+@media screen and (max-width: 580px) {
+    .d-xs-none {
+        display: none;
+    }
+    .col-xs-6 {
+        width: 50% !important;
+    }
+    .category .txt h2 {
+        text-align: center;
+    }
+    .shop.d .txt h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .shop .txt {
+        padding-top: 0px;
+    }
+    .pt-4 {
+        padding-top: 0px !important;
+    }
+    .shop.d .space {
+        display: none;
+    }
+}

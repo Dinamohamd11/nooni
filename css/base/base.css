@@ -1,0 +1,49 @@
+@import url(fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+.rm {
+    padding-left: 3.5rem !important;
+}
+body {
+    font-family: "Inter-400";
+}
+
+li {
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+}
+a {
+    text-decoration: none !important  ;
+}
+.p-80 {
+    padding: 50px 43px;
+}
+.p-60 {
+    padding: 0 43px;
+}
+
+.pnav {
+    padding: 0 36px;
+}
+.w-70 {
+    width: 70% !important;
+}
+.pe-6 {
+    padding-right: 87px;
+}
+.p-30 {
+    padding: 50px 20px;
+}
+.ms {
+    margin-left: 20px;
+}
+.msn {
+    margin-left: -100px;
+}

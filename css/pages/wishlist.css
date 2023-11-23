@@ -1,0 +1,97 @@
+.cart .inner table thead {
+    width: 100%;
+}
+.cart .timg img {
+    width: 22%;
+}
+.cart .timg p {
+    margin: 61px 30px;
+    font-weight: 400;
+}
+.cart .timg {
+    padding: 20px 0;
+}
+.cart .price {
+    padding-top: 73px;
+    padding-left: 3.5rem;
+}
+.cart .counter i {
+    padding: 5px;
+}
+.cart .counter {
+    padding-top: 85px;
+}
+.cart .left {
+    padding-top: 73px;
+    margin-top: -9px;
+}
+.cart .counter span {
+    color: #297e29;
+}
+
+.cart .left .button {
+    /* width: 62%; */
+    width: 86%;
+    border: none;
+    font-weight: 700;
+    padding: 13px 10px;
+}
+.cart .left i {
+    margin-top: 19px;
+    padding-left: 99px;
+}
+.cart .heading .share h4 {
+    font-size: 17px;
+    font-weight: 700;
+}
+/* .cart .icon button {
+    border-radius: 50%;
+    width: 27%;
+    height: 54%;
+} */
+.cart .icon {
+    padding: 0 11px;
+}
+.cart .icon button {
+    padding: 1px 1px;
+    border-radius: 50%;
+    width: 29px;
+    font-size: 15px;
+    height: 30px;
+    border: none;
+    transition: all 0.4s;
+}
+.cart .icon button:hover {
+    background-color: rgba(132, 132, 132, 1);
+    color: #fff;
+}
+.cart .share {
+    padding-top: 7px;
+}
+.cart .heading {
+    padding: 16px 0;
+    margin-bottom: 83px;
+}
+.cart .icon .fb {
+    background-color: #39599e;
+}
+.cart .icon i {
+    color: #fff;
+}
+.cart .icon .x {
+    background-color: #45afe2;
+}
+.cart .icon .pin {
+    background-color: #ab2e31;
+}
+.cart .icon .enve {
+    background-color: #fbb102;
+}
+.cart .icon .wp {
+    background-color: #00a901;
+}
+.common h2 {
+    letter-spacing: 2.5px;
+    font-size: 37px;
+    text-transform: none;
+}

@@ -1,0 +1,45 @@
+.category .heading {
+    padding: 35px 0;
+}
+/* .category .imgcategory {
+    position: relative;
+    overflow: hidden;
+} */
+.category .imgcat img {
+    border-radius: 50%;
+    /* width: 50%; */
+}
+.category .imgcategory .overlay a {
+    position: absolute;
+    left: 51px;
+    bottom: 40px;
+    text-align: center;
+    padding: 8px;
+    visibility: hidden;
+}
+
+.category .imgcategory img:hover {
+    width: 50%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(152, 147, 147);
+    transform: translateZ(0);
+}
+.category .imgcategory:hover .overlay a {
+    transform: scale(1);
+    opacity: 2;
+
+    visibility: visible;
+}
+.category .text {
+    /* padding: 40px 21px; */
+}
+.category .text h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+}
+.category .text a {
+    color: black;
+}

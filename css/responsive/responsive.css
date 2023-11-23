@@ -1,0 +1,13 @@
+@media screen and (max-width: 580px) {
+    .col-xs-6 {
+        width: 50% !important;
+    }
+}
+@media screen and (max-width: 430px) {
+    .col-xs-6 {
+        width: 50% !important;
+    }
+    .col-xs {
+        width: 100% !important;
+    }
+}

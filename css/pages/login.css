@@ -1,0 +1,58 @@
+.form .user {
+    padding-top: 20px;
+}
+.form .item input {
+    width: 100%;
+    padding: 10px 19px;
+}
+.form .password {
+    padding: 18px 0;
+}
+.form label {
+    padding: 17px 0;
+}
+.form span {
+    color: red;
+}
+.form .box {
+    padding: 15px 13px;
+}
+.form .button {
+    width: 95%;
+    z-index: 3222;
+    text-transform: uppercase;
+    font-family: "Inter-700";
+    font-size: 14px;
+    padding: 15px;
+}
+.form a {
+    text-decoration: underline;
+    border-bottom: 1px solid #000;
+    text-transform: capitalize;
+    color: #000;
+}
+.form .box span {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.form .items input {
+    width: 100%;
+    padding: 10px 19px;
+}
+.form .items {
+    width: 80%;
+}
+.form .button.edit {
+    width: 80%;
+}
+.form input[type="checkbox" i]:checked {
+    accent-color: blue;
+    border-radius: 5px;
+}
+/* .header-center {
+    background-color: transparent;
+    border-bottom: 1px solid #dee2e6;
+} */

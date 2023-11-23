@@ -1,0 +1,350 @@
+.category .imgcat:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.category .imgcat img {
+    width: 100%;
+    transition: 300ms ease;
+}
+
+.category .imgcat {
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    cursor: pointer;
+}
+.category .imgcat .links {
+    position: absolute;
+    transition: all 0.5s;
+    left: 42px;
+    top: 44px;
+    right: 41px;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.category .imgcat .links i {
+    position: relative;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 24px;
+    text-align: center;
+    line-height: 54px;
+}
+.category .imgcat:hover .imgcat img {
+    transform: scale(1.03);
+}
+.category .imgcat:hover .links {
+    opacity: 2;
+    visibility: visible;
+}
+.category .imgcat .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.category .imgcat:hover .overlay {
+    opacity: 2;
+}
+.category .line.s {
+    border-top: 1px solid rgba(30, 30, 30, 0.14);
+    width: 100%;
+}
+
+.filter .icon .special-icon {
+    padding: 20px 10px;
+    background-color: rgba(239, 239, 239, 1);
+    padding: 3px 12px;
+    color: black;
+    font-size: 19px;
+}
+.filter .icon .special-icon a::after {
+    content: "filter";
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.filter .icon .special-icon i {
+    padding: 0 12px;
+    color: black;
+}
+.filter .icon .two-icon {
+    padding: 4px 23px;
+    color: #000;
+}
+.filter .icon .two-icon i {
+    color: black;
+    font-size: 25px;
+}
+.filter .icon .two-icon .color i {
+    color: red;
+}
+.filter .icon .two-icon .war i:hover {
+    color: red;
+    cursor: pointer;
+}
+.filter .check .checks:after {
+    content: "Show only products on sale";
+}
+.filter .check .checks {
+    padding: 6px 17px;
+    background-color: rgba(239, 239, 239, 1);
+}
+
+/*  */
+
+input[type="checkbox" i] {
+    width: 17px;
+    margin-right: 5px;
+}
+input[type="checkbox" i]:checked {
+    accent-color: black;
+    border-radius: 5px;
+}
+
+/*  */
+
+.filter .dropdown .btn {
+    padding: 6px 67px;
+    border-radius: 0;
+    background-color: rgba(239, 239, 239, 1);
+}
+
+.shop .check {
+    padding: 0px 26px;
+}
+.shop .all {
+    padding: 20px 0;
+}
+.shop .type {
+    padding: 5px 17px;
+    background-color: rgba(239, 239, 239, 1);
+}
+.shop .type h3 {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 4px 10px;
+}
+.shop label {
+    position: relative;
+    padding: 0 24px;
+}
+.shop label::before {
+    content: "";
+    position: absolute;
+    width: 19px;
+    margin: 3px 4px;
+
+    height: 19px;
+    background: #fff;
+    color: #000;
+    border: 2px solid #b6b6b6;
+    border-radius: 3px;
+}
+.shop label:hover::before {
+    background: #000;
+    border-color: #000;
+}
+.shop .true i {
+    position: absolute;
+    transition: all 0.8s;
+    width: 19px;
+    top: 5px;
+    left: 28px;
+    right: 67px;
+    right: 128px;
+    visibility: hidden;
+    text-align: center;
+}
+.shop label:hover i {
+    opacity: 2;
+    visibility: visible;
+    width: 19px;
+    height: 19px;
+    background-color: black;
+    color: #fff;
+}
+.shop .all {
+    padding: 20px 0;
+}
+.shop p {
+    padding: 0px 12px;
+    transition: all 0.8s;
+}
+
+.shop p:hover {
+    color: rgb(192, 185, 185);
+}
+.shop .cont {
+    padding: 4px 0;
+}
+.shop .card {
+    border: none;
+}
+.shop .card .cardimg {
+    position: relative;
+    overflow: hidden;
+}
+.shop .card .cardimg img {
+    width: 100%;
+}
+.shop .card .socal-icon {
+    position: absolute;
+    transition: all 0.5s;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: 0;
+    visibility: hidden;
+    bottom: 156px;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-content: flex-end;
+    z-index: 6;
+}
+.shop .card .socal-icon a {
+    right: 0;
+    background: #fff;
+    position: relative;
+    color: #292621;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 48px;
+    top: 63px;
+    margin: 6px;
+}
+.shop .card .socal-icon i {
+    position: relative;
+    top: -5px;
+}
+.shop .card .socal-icon a:hover {
+    background: #ff2020;
+    color: #fff;
+}
+.shop .card:hover .socal-icon {
+    opacity: 2;
+    visibility: visible;
+}
+.shop .card .button {
+    bottom: 0px;
+    left: 0;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    border: 1px solid #f0e9ff;
+    color: #000;
+    border: none;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 5;
+}
+.shop .card .button:hover {
+    background-color: #ff2020;
+    color: white;
+    opacity: 1;
+    visibility: visible;
+}
+.shop .card:hover .button {
+    opacity: 1;
+    visibility: visible;
+}
+.shop .card .special {
+    visibility: visible;
+    position: relative;
+    flex-direction: column-reverse;
+    align-content: flex-end;
+    z-index: 5;
+}
+.shop .card .special a {
+    position: absolute;
+    color: #292621;
+    top: -50px;
+    width: 39px;
+    height: 39px;
+    right: 0;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 48px;
+    margin: 6px;
+    transition: all 0.5s;
+}
+.shop .card .special i {
+    position: relative;
+    top: -5px;
+}
+.shop .card:hover .special a {
+    background-color: #fff;
+    top: -94px;
+}
+.shop .card .special a:hover {
+    background-color: #ff2020;
+    color: #fff;
+}
+.price span span {
+    color: rgba(149, 149, 149, 1);
+
+    text-decoration: line-through;
+    margin: 0;
+    margin-left: 12px;
+}
+.price span {
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+.shop .cardimg :is(.hot, .sale) {
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    padding: 4px 13px;
+    background: rgba(209, 2, 2, 1);
+    color: #fff;
+    line-height: 1;
+    font-size: 15px;
+    text-transform: uppercase;
+    z-index: 6;
+}
+.shop .cardimg .sale {
+    left: 70px;
+    background: black;
+}
+.shop .card .cardimg .overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: url(../../image/23-450x572.jpg);
+    background-size: cover;
+    background-position: center center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.1s;
+}
+.shop .card:hover .cardimg .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+.shop .item .card-cap h3 {
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+.shop .item .card-cap h3:hover {
+    color: #ff2020;
+}
+.shop .item .card-cap {
+    padding-top: 1rem;
+}

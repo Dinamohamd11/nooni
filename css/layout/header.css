@@ -1,0 +1,29 @@
+.home {
+    background-color: rgb(241, 240, 240);
+    height: 130vh;
+}
+
+.home .text {
+    margin-top: 17%;
+}
+.home .text span {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.home .text h1 {
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    color: rgba(0, 0, 0, 1);
+}
+.home .text p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+.home .text a {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+}

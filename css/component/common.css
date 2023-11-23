@@ -1,0 +1,21 @@
+.common .text .line::after {
+    content: "/";
+    color: #74706b;
+    font-size: 14px;
+    padding: 9px 6px;
+}
+.common .text .line {
+    color: rgba(132, 132, 132, 1);
+}
+.common .text .line:hover {
+    text-decoration: underline !important;
+}
+.common .text a {
+    color: rgba(0, 0, 0, 1);
+}
+.common h2 {
+    margin-top: 23px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+}

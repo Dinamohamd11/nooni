@@ -1,0 +1,158 @@
+/* About */
+.about .text {
+    padding: 0 128px;
+}
+.about .text p {
+    font-size: 24px;
+    color: #848484;
+    line-height: 1.54em;
+}
+.aboutimg {
+    height: 100vh;
+    background-image: url(/image/about-parallax-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* </About> */
+/* Works */
+.works .imgwork img {
+    width: 100%;
+}
+/* .works {
+    padding: 90px 0;
+} */
+.works .text p {
+    font-size: 20px;
+    color: #848484;
+}
+/* </Works> */
+/* Team */
+.team .teamdetails .teamimg {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+.team .teamdetails .teamimg:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+.team .teamdetails .teamimg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms ease;
+}
+.team .teamdetails .teamimg .social {
+    position: absolute;
+    top: 50%;
+    left: 67px;
+    transform: translateY(-50%) translateY(10px);
+    color: #fff;
+    z-index: 5;
+    visibility: hidden;
+    transition: 300ms ease;
+}
+.team .teamdetails .social i {
+    width: 20px;
+    color: #fff !important;
+    height: 20px;
+    line-height: 20px;
+    margin: 13px;
+    vertical-align: middle;
+    text-align: center;
+    color: inherit;
+    letter-spacing: 0;
+    text-decoration: none;
+    transition: 200ms ease;
+}
+.team .teamdetails .teamimg:hover .social i {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%);
+}
+.team .teamdetails .heading {
+    text-align: center;
+}
+.team .teamdetails .heading h5 {
+    font-size: 20px;
+}
+.team .teamdetails .heading h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.team .teamdetails .heading a {
+    color: gray;
+}
+.team .teamdetails .heading a:hover {
+    color: red;
+}
+
+.brands.s {
+    border-bottom: 1px solid rgb(193, 190, 190);
+}
+.team .text h2 {
+    font-size: 21px;
+    font-weight: 700;
+}
+.info {
+    height: 70vh;
+    background-image: url(/image/about-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.info .layer {
+    height: 70vh;
+    background-color: rgba(24, 23, 23, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    margin: 90px 0;
+}
+.info .heading {
+    padding: 90px 0;
+}
+.info .heading h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: 0.075em;
+}
+.info .heading p {
+    color: #fff;
+}
+.info .button {
+    width: 23%;
+    padding: 12px 20px;
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    border: none;
+}
+.info .button:hover {
+    background: red;
+    color: #fff;
+}
+.info.contact {
+    height: 180vh;
+}
+.info.contact .layer {
+    height: 180vh;
+}
+.info .layer .text h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+}

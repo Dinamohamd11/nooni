@@ -1,0 +1,49 @@
+.contact {
+    margin-top: -396px;
+    padding-bottom: 75px;
+}
+.contact .overup {
+    padding: 96px;
+    background: #fff;
+    box-shadow: 0px 5px 10px 0px
+        rgba(119.99999999999999, 119.99999999999999, 119.99999999999999, 0.14901960784313725);
+}
+.contact .inputs .control {
+    width: 49%;
+    margin-top: 34px;
+    padding: 17px;
+}
+.contact .inputs .box {
+    width: 99%;
+    margin: 24px 0;
+    padding: 18px 19px;
+}
+.contact .inputs .button {
+    padding: 18px;
+    width: 100%;
+}
+.contact .details-text {
+    padding: 15px 0px;
+}
+.contact .details-text h4 {
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.contact .details-text p {
+    font-size: 18px;
+    color: #848484;
+}
+.contact .details-text a {
+    color: #000;
+    font-size: 20px;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+.contact .heading h2 {
+    font-size: 33px;
+    margin-bottom: 34px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}

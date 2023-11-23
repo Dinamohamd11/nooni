@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    .filter .two-icon {
+        display: none;
+    }
+    .filter {
+        padding: 0 30px;
+    }
+    .filter .dropdown .btn {
+        padding: 6px 20px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .check .checks {
+        display: none !important;
+    }
+    .col-xs-6 {
+        width: 50% !important;
+    }
+    .filter .dropdown .btn {
+        padding: 4px 84px;
+    }
+}

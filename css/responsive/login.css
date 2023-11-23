@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px) {
+    .cont {
+        text-align: center;
+    }
+    .form {
+        width: 100%;
+    }
+    .form .item input {
+        width: 73%;
+    }
+    .form label {
+        display: flex;
+        text-align: start;
+        padding: 8px 100px;
+    }
+    .form .all {
+        padding: 0px 96px;
+        display: block !important;
+    }
+    .form .box {
+        display: none;
+    }
+    .form .button {
+        width: 32%;
+        margin: 21px 0;
+    }
+    .form .lost {
+        padding: 0 99px;
+    }
+    .lft {
+        text-align: center;
+    }
+    .form .items input {
+        width: 73%;
+        padding: 10px 19px;
+    }
+    .form .items {
+        width: 100%;
+    }
+    .heading {
+        padding-top: 80px;
+    }
+    .form .button.edit {
+        width: 38%;
+    }
+    .all .col-lg-4 {
+        text-align: start !important;
+    }
+}
+@media screen and (max-width: 430px) {
+    .form .item input {
+        width: 100%;
+    }
+    .form label {
+        padding: 8px 5px;
+    }
+    .form .all {
+        padding: 0px !important;
+    }
+    .form .button {
+        width: 36%;
+        margin: 9px 0;
+    }
+    .form .lost {
+        padding: 10px 0;
+    }
+    .form .items input {
+        width: 100%;
+    }
+}

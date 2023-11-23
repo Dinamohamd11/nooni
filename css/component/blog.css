@@ -1,0 +1,192 @@
+.blog .imgitem:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.blog .imgitem img {
+    width: 100%;
+    transition: 500ms ease;
+}
+
+.blog .imgitem {
+    overflow: hidden;
+}
+.blog .postsimg:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.blog .postsimg img {
+    width: 100%;
+    transition: 500ms ease;
+}
+
+.blog .postsimg {
+    overflow: hidden;
+}
+
+.blog .all {
+    padding-left: 65px;
+}
+.blog .input .boxs {
+    position: absolute;
+    width: 25%;
+    height: 55px;
+    padding: 0 34px;
+}
+
+.blog .input {
+    border: none;
+    padding-bottom: 27px;
+}
+.blog .input button {
+    position: relative;
+    border: none;
+    position: relative;
+    padding-left: 89%;
+    top: 12px;
+}
+.blog .box {
+    margin: 60px 0;
+}
+.blog .posts .postsimg {
+    width: 57%;
+}
+.blog .heading h2 {
+    text-transform: capitalize;
+    padding-bottom: 17px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.blog .group .par {
+    padding: 12px 27px;
+}
+.blog .group .par h6 {
+    font-size: 18px;
+}
+.blog .comments .comm {
+    padding: 8px 0;
+}
+.blog .comments .comm p {
+    font-size: 22px;
+    width: 100%;
+    line-height: 1;
+}
+.blog .tag li {
+    list-style: none;
+    padding: 10px 10px;
+}
+.blog .tag ul li a {
+    border: 1px solid #eeeeee;
+    background: #fff;
+    padding: 7px 25px;
+    transition: all 0.3s ease 0s;
+    color: #888888;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.blog .tag ul li a:hover {
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    transition: 0.5s;
+}
+.blog .tag {
+    padding: 23px 0;
+}
+
+.blog .imgitem {
+    position: relative;
+}
+.blog .smallimg {
+    position: absolute;
+    width: 100%;
+    bottom: 44px;
+    left: 24px;
+}
+.blog .smallimg:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.blog .smallimg img {
+    width: 60px;
+    height: 60px;
+    border: 8px solid rgba(217, 217, 217, 0.4);
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 300ms ease;
+}
+.blog .imgitem span {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+    line-height: 1;
+    text-transform: uppercase;
+    z-index: 6;
+}
+.blog .smallimg img {
+    border-radius: 50%;
+    width: 7%;
+}
+
+.thems button {
+    padding: 9px 18px;
+    border: none;
+}
+.thems button:first-child {
+    background-color: black;
+    color: #fff;
+}
+.thems button:hover {
+    background: black;
+    color: #fff;
+}
+.blog .posts .par h6 {
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
+}
+.blog .comments .comm p {
+    font-size: 22px;
+}
+.blog .comments .comm span {
+    color: rgba(132, 132, 132, 1);
+}
+.blog .text h2 {
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: normal;
+    transition: all 0.6s;
+}
+.blog .text {
+    padding-bottom: 63px;
+}
+.blog .text h2:hover {
+    color: rgba(209, 2, 2, 1);
+    cursor: pointer;
+}
+.blog .text p {
+    color: rgba(132, 132, 132, 1);
+    font-size: 20px;
+    line-height: 1.8;
+}
+.blog .blogitem a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgba(132, 132, 132, 1);
+    margin-bottom: 15px;
+    padding: 0 3px;
+}
+.blog .blogitem a:hover {
+    color: rgba(209, 2, 2, 1);
+}
+.blog .blogitem {
+    margin-top: 34px;
+}
+
+.blog .btn-all {
+    font-weight: 700;
+    font-size: 16px;
+}

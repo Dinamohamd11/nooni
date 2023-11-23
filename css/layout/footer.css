@@ -1,0 +1,91 @@
+.footer {
+    padding-top: 70px;
+}
+.footer .imglogo img {
+    width: 74%;
+}
+.footer .list-footer ul {
+    padding: 0;
+    color: #bbb9b5;
+}
+.footer .text p {
+    color: rgba(132, 132, 132, 1);
+    margin-top: 25px;
+    line-height: 2.7;
+    font-size: 17px;
+}
+
+.footer .heading h5 {
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+}
+.footer .list-footer ul li a {
+    color: rgba(132, 132, 132, 1);
+    font-size: 19px;
+    line-height: 2;
+    font-weight: 400;
+}
+.footer .inputs .from-control {
+    height: 44px;
+    font-size: 13px;
+    outline: none;
+    width: 70%;
+    border: none;
+    font-size: 19px;
+    padding-left: 20px;
+    background-color: #ededed;
+    border-right: 0;
+}
+.footer .icons {
+    margin-top: 20px;
+}
+.footer .icons i {
+    margin: 10px;
+    color: #000;
+    font-size: 20px;
+}
+.footer .icons i:hover {
+    color: rgb(136, 11, 11);
+}
+.footer .newslatter p {
+    font-size: 17px;
+    color: rgba(132, 132, 132, 1);
+}
+.footer-border {
+    border-top: 1px solid rgb(233 226 226);
+    padding-top: 13px;
+}
+.footer-end .lisst {
+    padding: 0;
+}
+.footer-end .lisst ul {
+    padding: 0;
+}
+.footer-end .lisst ul li a {
+    padding: 20px;
+    color: rgba(132, 132, 132, 1);
+    font-size: 17px;
+}
+.footer-end {
+    padding-top: 70px;
+}
+.footer-end .par p {
+    color: rgba(132, 132, 132, 1);
+    font-size: 17px;
+}
+.footer ul li a:hover {
+    color: red;
+    transition: color 0.9s;
+}
+.footer-end .imgfooter img {
+    width: 62%;
+}
+
+.footer {
+    border-top: 1px solid rgb(233 226 226);
+    padding-top: 110px;
+}

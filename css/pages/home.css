@@ -1,0 +1,179 @@
+.shop .txt h2 {
+    font-weight: 400;
+    font-size: 60px;
+    padding-top: 50px;
+}
+.shop .txt {
+    padding-top: 50px;
+}
+.shop .txt a {
+    color: black;
+    transition: all 0.6s;
+}
+.shop .txt a:hover {
+    color: red;
+}
+.vid {
+    background-image: url(/image/video-placeholder.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+}
+.vid .layer {
+    height: 80vh;
+    background-color: rgba(24, 23, 23, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid .layer .text h2 {
+    letter-spacing: 14px;
+    font-size: 100px;
+    color: #ffffff30;
+    font-weight: 700;
+}
+.blog.d .smallimg img {
+    width: 9%;
+}
+.video {
+    padding-top: 60px;
+}
+.brands .txt h2 {
+    position: relative;
+    font-weight: inherit;
+    font-size: 55px;
+    z-index: 8888;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.brands .single-img img {
+    position: relative;
+    bottom: 48px;
+}
+.brands .img img {
+    position: relative;
+    bottom: 48px;
+    width: 100%;
+    transition: 500ms ease;
+}
+.brands .img:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.brands .img {
+    overflow: hidden;
+}
+.brands .first-card {
+    position: relative;
+}
+.brands .first-card .txt {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 65%;
+}
+.brands .first-card .img {
+    margin-top: 50px;
+}
+.brands .imge {
+    position: relative;
+}
+/* .brands .imge .box-content {
+    top: 50px;
+    color: #fff;
+    text-align: center;
+    right: 99px;
+    width: 70%;
+    text-transform: capitalize;
+} */
+/* .brands .imge .box-content h2 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    margin-bottom: 40px;
+}
+.brands .imge .box-content p {
+    text-transform: uppercase;
+    font-size: 19px;
+    letter-spacing: 2px;
+} */
+.brands .imge .box-content .btn-all.r {
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.brands .btnn {
+    z-index: 2000000;
+    top: 218px;
+    position: absolute;
+}
+.brands .btnn .btn-all {
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.backg {
+    background-image: url(/image/banner-3.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.more .content .text {
+    padding: 70px 42px 0px 52px;
+}
+.more .content .text h2 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1em;
+    color: rgba(0, 0, 0, 1);
+}
+.more .content .par {
+    padding: 72px 0;
+}
+.more .content .par h4 {
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+.more .content .par p {
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.075em;
+}
+.more .content .par p span {
+    font-weight: 700;
+}
+.brands .single-img {
+    position: relative;
+}
+.brands .single-img .box-content {
+    top: -10px;
+    color: #000;
+    right: 170px;
+    text-align: start;
+}
+.brands .single-img .box-content p {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.brands .single-img .box-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.brands .single-img .box-content .btn-all.r {
+    color: #000;
+}
+.homeimg {
+    position: relative;
+    top: -93px;
+    right: -48px;
+    width: 93%;
+}
+/* .header-center.e {
+    background-color: rgb(241, 240, 240);
+} */

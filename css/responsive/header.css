@@ -1,0 +1,63 @@
+@media screen and (max-width: 1440px) {
+    .header-center .icon .fa-regular.fa-heart::after {
+        top: 73px;
+        right: 96px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header-center .icon .fa-regular.fa-heart::after {
+        top: 73px;
+        right: 96px;
+    }
+    .header-center .imglogo img {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-center .icon.all {
+        margin-top: -66px;
+    }
+
+    .header-center {
+        padding: 30px 20px !important;
+    }
+
+    .header-center .icon .fa-regular.fa-heart::after {
+        top: 60px;
+        right: 72px;
+    }
+    .header-center .imglogo {
+        margin-top: -53px;
+    }
+
+    .header-center .icon .fa-regular.fa-heart::after {
+        top: 62px;
+        right: 72px;
+    }
+
+    .header-center .imglogo img {
+        width: 23%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .header-center .icon .fa-regular.fa-heart::after {
+        top: 64px;
+    }
+
+    .header .header-right {
+        display: none !important;
+    }
+    .header .header-left p {
+        margin: 10px 0;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    .header-center .icon.all .fa-regular.fa-user {
+        display: none;
+    }
+    .header-center .imglogo {
+        margin-top: -66px;
+    }
+}

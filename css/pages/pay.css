@@ -1,0 +1,81 @@
+/* .header-center {
+    background-color: transparent;
+    border-bottom: 1px solid #dee2e6;
+} */
+.cart.pay .timg img {
+    width: 32%;
+    height: 30%;
+}
+.cart.pay .left span {
+    background-color: #ededed;
+    padding: 0 3px;
+}
+.cart.pay .left {
+    padding-top: 85px;
+}
+.cart.pay .timg p {
+    margin: 61px 21px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.cart.pay .timg p:hover {
+    color: rgba(209, 2, 2, 1);
+}
+.cart.pay .remove {
+    padding-top: 73px;
+}
+.cart.pay .total {
+    background-color: rgb(241, 240, 240);
+}
+.cart.pay .subtotal {
+    margin-bottom: 6px;
+    border-bottom: 1px solid rgb(233 226 226);
+}
+.cart.pay .total .input {
+    justify-content: flex-end;
+}
+.cart.pay .total .par {
+    justify-content: flex-end;
+}
+.cart.pay .total .par {
+    padding: 0 66px;
+}
+.cart.pay .total .par p {
+    padding-left: 72px;
+    color: #707070;
+    font-style: italic;
+}
+.cart.pay .total .text h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.cart.pay .total .click {
+    padding: 5px 20px;
+}
+.cart.pay .total .button {
+    width: 99%;
+}
+.cart.pay .total .subtotal.t {
+    border-top: 1px solid rgb(233 226 226);
+}
+.cart.pay .total {
+    padding: 20px 0;
+}
+.cart.pay .shipping .ship span {
+    font-weight: 700;
+}
+.cart.pay .subtotal span {
+    font-weight: 700;
+}
+.shop .heading {
+    padding-bottom: 36px;
+    font-weight: 700;
+    font-size: 28px;
+}
+.shop .heading h2 {
+    font-weight: 700;
+    font-size: 28px;
+}
+.shop.r {
+    margin-bottom: 50px;
+}

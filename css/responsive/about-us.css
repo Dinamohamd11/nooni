@@ -1,0 +1,123 @@
+@media screen and (max-width: 1024px) {
+    .about .text p {
+        font-size: 24px;
+    }
+
+    .about .text {
+        padding: 0px;
+    }
+    .p-5 {
+        padding: 0px !important;
+    }
+    .mb-5 {
+        margin-bottom: 1rem !important;
+    }
+    .works .text p {
+        font-size: 18px;
+    }
+    .pb-4 {
+        padding-bottom: 0px !important;
+    }
+    .team .teamdetails .teamimg .social {
+        left: 11px;
+    }
+    .works .heading h2 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 28px;
+    }
+    .works .text h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .about .text P {
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .team .teamdetails .heading h3 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .team .teamdetails .heading h5 {
+        font-size: 17px;
+    }
+    .info .button {
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about .text P {
+        font-size: 20px;
+    }
+    .p-5 {
+        padding: 0px !important;
+        text-align: center;
+    }
+    .works .text {
+        padding: 0 98px;
+    }
+    .works .heading h2 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 28px;
+    }
+    .works .text h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .about .text P {
+        font-size: 21px;
+        font-weight: 400;
+    }
+    .team .teamdetails .heading h3 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .m-5 {
+        margin: 0 !important;
+    }
+    .aboutimg {
+        height: 49vh;
+    }
+    .works .text {
+        padding: 0 5px;
+    }
+    .team .teamdetails .teamimg .social {
+        left: 20px;
+    }
+    .info {
+        margin: 35px 0px 35px 0;
+    }
+    .p-60 {
+        padding: 28px 24px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .info {
+        height: 70vh;
+    }
+    .info .layer {
+        height: 70vh;
+    }
+    .info .heading h2 {
+        color: #fff;
+        font-size: 26px;
+    }
+    .info .heading p {
+        font-size: 19px;
+    }
+    .info .button {
+        width: 33%;
+        padding: 9px 20px;
+        font-weight: 600;
+    }
+    .team .teamdetails .heading h5 {
+        font-size: 19px;
+    }
+    .team .teamdetails .heading h3 {
+        font-size: 20px;
+    }
+    .team .teamdetails .teamimg .social {
+        left: 90px;
+    }
+}

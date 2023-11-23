@@ -1,0 +1,161 @@
+.common .text a::after {
+    content: "/";
+    color: #74706b;
+    font-size: 14px;
+    padding: 9px 6px;
+}
+.common .text a {
+    color: rgba(132, 132, 132, 1);
+}
+.common .text p {
+    color: rgba(0, 0, 0, 1);
+}
+.common .text a:hover {
+    text-decoration: underline;
+}
+
+.detail .right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail .links {
+    border-top: 1px solid rgb(233 226 226);
+    padding-top: 13px;
+}
+.detail .tags li {
+    list-style: none;
+    padding: 10px 10px;
+}
+.detail .tags ul li a {
+    border: 1px solid #eeeeee;
+    background: #fff;
+    padding: 7px 17px;
+    transition: all 0.3s ease 0s;
+    color: #888888;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.detail .tags ul li a:hover {
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    transition: 0.5s;
+}
+.detail .tags {
+    padding: 23px 0;
+}
+.detail .review .revimg img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 8px solid #efefef;
+    object-fit: cover;
+}
+.detail .review .text p {
+    font-size: 16px;
+    color: rgba(132, 132, 132, 1);
+    line-height: 1.4;
+}
+.detail .review .text {
+    padding: 17px 22px;
+}
+.detail .links .icons {
+    padding-top: 36px;
+}
+.detail .links .icons i {
+    font-size: 18px;
+    padding: 0 10px;
+}
+.detail .links .icons i:hover {
+    color: rgba(209, 2, 2, 1);
+}
+.detail .text .author .dt {
+    padding: 0 10px;
+}
+.detail .review .revimg.new img {
+    width: 90px;
+    height: 90px;
+}
+.detail .review.new {
+    padding-left: 96px;
+    margin-top: 30px;
+}
+
+.detail .line {
+    border-bottom: 1px solid rgb(233 226 226);
+    padding-top: 13px;
+}
+.blog .blogitem .admin {
+    color: rgba(132, 132, 132, 1);
+}
+.blog .text.blg h2 {
+    font-size: 54px;
+    line-height: 1.2;
+}
+.blog .text.blg h4 {
+    padding-top: 10px;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1;
+    padding-top: 25px;
+}
+.blog .text.blg p {
+    font-size: 19px;
+}
+.blog .text.blg h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+.detail .imgcol .text p {
+    font-size: 33px;
+}
+.detail .imgcol .text i {
+    color: rgba(132, 132, 132, 1);
+    padding-bottom: 8px;
+}
+.detail .paragraph h2 {
+    font-size: 33px !important;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.6;
+}
+.detail .paragraph p {
+    font-size: 19px;
+    color: rgba(132, 132, 132, 1);
+
+    line-height: 1.6;
+}
+.detail .right span {
+    font-size: 18px;
+    padding: 4px 7px;
+    color: rgba(132, 132, 132, 1);
+}
+.detail .right li {
+    padding: 4px 7px;
+    color: #52c152;
+}
+.detail .right i {
+    color: #52c152;
+}
+.detail .form .forms textarea {
+    width: 98%;
+    padding: 10px 27px;
+}
+.detail .form .forms .inputs input {
+    width: 50%;
+    margin-right: 19px;
+    padding: 12px 17px;
+}
+.detail .form .forms .button {
+    width: 98%;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.detail .form {
+    padding-top: 70px;
+}
+.detail .imgcol {
+    margin-right: 30px;
+}

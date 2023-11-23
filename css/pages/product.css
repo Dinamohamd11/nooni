@@ -1,0 +1,219 @@
+.product .imglist li img {
+    width: 100%;
+    transition: 300ms ease;
+    cursor: pointer;
+}
+.product .imglist li img:hover {
+    opacity: 0.3;
+    background-color: darkcyan;
+}
+.product .imglist .special img {
+    opacity: 0.3;
+}
+.product .cardimg :is(.hot, .sale) {
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    padding: 4px 13px;
+    background: rgba(209, 2, 2, 1);
+    color: #fff;
+    line-height: 1;
+    font-size: 15px;
+    text-transform: uppercase;
+    z-index: 6;
+}
+.product .cardimg .sale {
+    left: 70px;
+    background: black;
+}
+.product .cardimg {
+    position: relative;
+    overflow: hidden;
+}
+.product .cardimg .zoom i {
+    color: #000;
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+}
+
+.product .cardimg .zoom a {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 39px;
+    height: 39px;
+    background: #fff;
+    z-index: 555;
+    border-radius: 50%;
+}
+.product .price span {
+    font-weight: 400;
+    font-size: 40px;
+}
+.product .price span span {
+    font-weight: 400;
+    font-size: 20px;
+}
+.product .stock span span {
+    color: #77a464;
+}
+.product .icon a {
+    color: #000;
+}
+.product .include {
+    padding-left: 24px;
+    width: 65%;
+    background-color: black;
+    color: #fff;
+}
+.product .all h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.product .include .days {
+    padding-right: 20px;
+    margin-top: -6px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.product .include a {
+    padding: 0 20px;
+}
+.product .include .number span {
+    font-size: 20px;
+    font-weight: 700;
+}
+.product .include .number a {
+    color: #fff;
+}
+.price span span {
+    padding: 0 10px;
+    font-size: 19px;
+    font-weight: 400;
+}
+.price span {
+    font-size: 29px;
+}
+.product .price p {
+    color: rgba(132, 132, 132, 1);
+    font-size: 17px;
+    width: 100%;
+    font-weight: 400;
+}
+.product .color .immg .imgcolors img {
+    width: 86%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding: 3px;
+    border: 1px solid #bbbbbb;
+    margin: 0 4px;
+    transition: 150ms ease;
+}
+.product .left span {
+    padding: 11px 18px;
+    background-color: #ededed;
+}
+.product .cont {
+    width: 27%;
+    margin: 12px 0px;
+}
+.product .left .button {
+    width: 74%;
+    background-color: #848484;
+}
+.product .left .button {
+    width: 74%;
+    background-color: #848484;
+}
+.product .left .button:hover {
+    background-color: rgb(183, 108, 108);
+}
+.product .bt .button {
+    width: 100%;
+    padding: 16px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    border-color: black;
+    background-color: transparent;
+    color: rgb(108 103 103);
+    font-weight: 700;
+    transition: all 0.5s;
+}
+.product .bt .button:hover {
+    border-color: rgba(209, 2, 2, 1);
+    color: rgba(209, 2, 2, 1);
+}
+.product .end .ico {
+    width: 47%;
+}
+.product .end .ico .icons i {
+    padding: 0 8px;
+    transition: all 0.6s;
+}
+.product .end .ico .icons i:hover {
+    color: rgba(209, 2, 2, 1);
+}
+.product .end {
+    border-bottom: 1px solid rgb(233 226 226);
+    padding-bottom: 20px;
+}
+.product .brand h6 {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 3px 0;
+}
+.product .brand span {
+    color: #848484;
+    letter-spacing: 1.5px;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.product .brand span:hover {
+    color: rgba(209, 2, 2, 1);
+}
+.details .text li {
+    padding: 0 11px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.details .text ul {
+    border-bottom: 1px solid rgb(233 226 226);
+    padding-bottom: 5px;
+}
+.details .text ul li a {
+    color: #000;
+    padding: 8px 47px;
+}
+.header-center {
+    background-color: transparent;
+    border-bottom: 1px solid #dee2e6;
+}
+.details .text .special a {
+    background-color: rgba(239, 239, 239, 1);
+    font-weight: 700;
+}
+.details .text ul li a:hover {
+    background-color: rgba(239, 239, 239, 1);
+}
+.size h4 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+.size span {
+    font-size: 16px;
+    color: #080707;
+    font-weight: 400;
+}
+.shop.d .price span {
+    font-size: 19px;
+}
+.color h5 {
+    font-size: 15px;
+    font-weight: 700;
+}
